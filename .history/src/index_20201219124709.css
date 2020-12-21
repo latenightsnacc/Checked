@@ -1,0 +1,27 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+body {
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom,#e1e3f0, #FC5C7D,#6A82FB );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #e1e3f0, #FC5C7D, #6A82FB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.35);
+    
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+  }
